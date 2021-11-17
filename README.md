@@ -19,7 +19,8 @@ c. we create 3 functions , one for writing the score , second for increasing the
 a. we start by importing the Turtle module from turtle class and randrange , randint and choice module from random class.
 b. we define these constants 'colors' , 'starting move distance' and 'move increment' . 
 c. we initialise the class with a blank list named 'cars' and an attribute named 'car_speed' that is equal to constant 'starting move distance' . 
-d. we define 3 functions inside this class. 
+d. we define 3 functions inside this class.
+
     Function A ) make_cars - we create a new object 'new_car' that is an 'turtle' object and define it's attributes such as shape , starting position and color.
     at the end , we append this object to the class 'cars' . 
     NOTE : the creation of objects was too fast , so to slow down the process we declared a new variable 'random_number' , that generates a random number between 1 and 6 and 
